@@ -1,0 +1,52 @@
+ memb_func='gbellmf',      # 'gaussian' / 'gbellmf'
+    optimizer='sgd',          # sgd / adam / ...
+    # mse / mae / huber_loss / mean_absolute_percentage_error / ...
+    loss='mse',
+    n_epochs=150  
+
+loss: 0.2106 - mse: 0.2106 - val_loss: 1.0953 - val_mse: 1.0953
+
+memb_func='gbellmf',      # 'gaussian' / 'gbellmf'
+    optimizer='sgd',          # sgd / adam / ...
+    # mse / mae / huber_loss / mean_absolute_percentage_error / ...
+    loss='mae',
+    n_epochs=150
+
+loss: 0.3696 - mae: 0.3696 - val_loss: 0.6861 - val_mae: 0.6861
+
+
+memb_func='gaussian',      # 'gaussian' / 'gbellmf'
+    optimizer='sgd',          # sgd / adam / ...
+    # mse / mae / huber_loss / mean_absolute_percentage_error / ...
+    loss='mae',
+    n_epochs=150 
+
+loss: 0.3334 - mae: 0.3334 - val_loss: 0.7159 - val_mae: 0.7159
+
+
+ memb_func='gaussian',      # 'gaussian' / 'gbellmf'
+    optimizer='sgd',          # sgd / adam / ...
+    # mse / mae / huber_loss / mean_absolute_percentage_error / ...
+    loss='mse',
+    n_epochs=150 
+
+loss: 0.2139 - mse: 0.2139 - val_loss: 0.1165 - val_mse: 0.1165
+
+
+ memb_func='sigmoid',      # 'gaussian' / 'gbellmf'
+    optimizer='sgd',          # sgd / adam / ...
+    # mse / mae / huber_loss / mean_absolute_percentage_error / ...
+    loss='mae',
+    n_epochs=150
+
+0s 2ms/step - loss: 0.3981 - mae: 0.3981 - val_loss: 0.5362 - val_mae: 0.5362
+
+memb_func='sigmoid',      # 'gaussian' / 'gbellmf'
+    optimizer='sgd',          # sgd / adam / ...
+    # mse / mae / huber_loss / mean_absolute_percentage_error / ...
+    loss='mse',
+    n_epochs=150 
+
+loss: 0.2998 - mse: 0.2998 - val_loss: 0.2129 - val_mse: 0.2129
+
+
